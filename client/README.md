@@ -18,30 +18,30 @@ Money Manager is a web-based personal financial management tool designed to help
 ├── README.md
 ├── vite.config.js
 └── public
-│   └── favicon.svg
-│   └── favicon.ico
+│   ├── favicon.svg
+│   ├── favicon.ico
 │   └── img
-│			  └── moneyPig.jpg.webp
+│		   └── moneyPig.jpg.webp
 └── src
 │   └── components
-│			  └── AppLayout.jsx
+│			└── AppLayout.jsx
 │   └── context
-│			  └── AuthContext.jsx
+│			└── AuthContext.jsx
 │   └── pages
-│			  └── BudgetCreatePage.jsx
-│			  └── BudgetEditPage.jsx
-│			  └── BudgetPage.jsx
-│			  └── CategoryCreatePage.jsx
-│			  └── CategoryEditPage.jsx
-│			  └── CategoryPage.jsx
-│			  └── HomePage.jsx
-│			  └── LoginPage.jsx
-│			  └── TransactionCreatePage.jsx
-│			  └── TransactionEditPage.jsx
-│			  └── TransactionPage.jsx
+│			├──  BudgetCreatePage.jsx
+│			├──  BudgetEditPage.jsx
+│			├──  BudgetPage.jsx
+│			├──  CategoryCreatePage.jsx
+│			├──  CategoryEditPage.jsx
+│			├──  CategoryPage.jsx
+│			├──  HomePage.jsx
+│			├──  LoginPage.jsx
+│			├──  TransactionCreatePage.jsx
+│			├──  TransactionEditPage.jsx
+│			└──  TransactionPage.jsx
 │   └── services
-│			  └── api.js
-│			  └── axios.js
+│			├──  api.js
+│			└── axios.js
 │   └── App.jsx
 │   └── main.jsx
 ```
@@ -68,7 +68,7 @@ Prerequisites:
 - VS code editor [https://code.visualstudio.com/]
 - A modern web browser (for development/testing)
 - dependencies:
-		- "@mantine/core": "^6.0.22",
+	 - "@mantine/core": "^6.0.22",
     - "@mantine/form": "^6.0.22",
     - "@mantine/hooks": "^6.0.22",
     - "@mantine/notifications": "^6.0.22",

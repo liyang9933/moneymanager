@@ -29,6 +29,7 @@ Money Manager is a web-based personal financial management tool designed to help
   **A description of the applications architecture**
 
 ```bash
+server/
 .
 ├── API-collection.json
 ├── README.md
@@ -36,26 +37,27 @@ Money Manager is a web-based personal financial management tool designed to help
 ├── server.js
 └── src
     ├── controllers
-    │   └── authController.js
-    │   └── budgetController.js
-    │   └── categoryController.js
+    │   ├──authController.js
+    │   ├── budgetController.js
+    │   ├── categoryController.js
     │   └── transactionController.js
     ├── middleware
-    │   └── auth.js
+    │   ├── auth.js
     │   └── mediaTypeValidator.js
     ├── models
-    │   └── Budget.js
-    │   └── Category.js
-    │   └── Transaction.js
+    │   ├── Budget.js
+    │   ├── Category.js
+    │   ├── Transaction.js
     │   └── User.js
     └── routes
         ├── index.js
-        └── transaction.js
-        └── budget.js
-        └── category.js
+        ├── transaction.js
+        ├── budget.js
+        ├── category.js
         └── authRoutes.js
 ```
 ```bash
+client/
 .
 ├── .env
 ├── index.html
@@ -63,30 +65,30 @@ Money Manager is a web-based personal financial management tool designed to help
 ├── README.md
 ├── vite.config.js
 └── public
-│   └── favicon.svg
-│   └── favicon.ico
+│   ├── favicon.svg
+│   ├── favicon.ico
 │   └── img
-│			  └── moneyPig.jpg.webp
+│		   └── moneyPig.jpg.webp
 └── src
 │   └── components
-│			  └── AppLayout.jsx
+│			└── AppLayout.jsx
 │   └── context
-│			  └── AuthContext.jsx
+│			└── AuthContext.jsx
 │   └── pages
-│			  └── BudgetCreatePage.jsx
-│			  └── BudgetEditPage.jsx
-│			  └── BudgetPage.jsx
-│			  └── CategoryCreatePage.jsx
-│			  └── CategoryEditPage.jsx
-│			  └── CategoryPage.jsx
-│			  └── HomePage.jsx
-│			  └── LoginPage.jsx
-│			  └── TransactionCreatePage.jsx
-│			  └── TransactionEditPage.jsx
-│			  └── TransactionPage.jsx
+│			├──  BudgetCreatePage.jsx
+│			├──  BudgetEditPage.jsx
+│			├──  BudgetPage.jsx
+│			├──  CategoryCreatePage.jsx
+│			├──  CategoryEditPage.jsx
+│			├──  CategoryPage.jsx
+│			├──  HomePage.jsx
+│			├──  LoginPage.jsx
+│			├──  TransactionCreatePage.jsx
+│			├──  TransactionEditPage.jsx
+│			└──  TransactionPage.jsx
 │   └── services
-│			  └── api.js
-│			  └── axios.js
+│			├──  api.js
+│			└── axios.js
 │   └── App.jsx
 │   └── main.jsx
 ```
@@ -152,14 +154,14 @@ Prerequisites:
 - VS code editor [https://code.visualstudio.com/]
 - A modern web browser (for development/testing)
 - server side dependencies:
-		- "dotenv": "^16.4.7",
+	 - "dotenv": "^16.4.7",
     - "express": "^4.21.2",
     - "helmet": "^8.1.0",
     - "jsonwebtoken": "^9.0.2",
     - "md5": "^2.3.0",
     - "mongoose": "^8.13.1"
 - client side dependencies:
-		- "@mantine/core": "^6.0.22",
+	 - "@mantine/core": "^6.0.22",
     - "@mantine/form": "^6.0.22",
     - "@mantine/hooks": "^6.0.22",
     - "@mantine/notifications": "^6.0.22",
@@ -170,7 +172,7 @@ Prerequisites:
     - "react-dom": "^18.2.0",
     - "react-router-dom": "^6.8.0"
 
-Installation steps:
+Installation steps for server:
 1. Clone the repository:
    git clone https://github.com/liyang9933/moneymanager.git
 
@@ -182,6 +184,19 @@ Installation steps:
 
 4. Run the application:
    node server.js
+
+Installation steps for client side:
+1. Clone the repository:
+   git clone https://github.com/liyang9933/moneymanager.git
+
+2. Navigate to the project directory:
+   cd client
+
+3. Install project dependencies:
+   npm install
+
+4. Run the application:
+   npm run dev
 ```
 
 

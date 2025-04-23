@@ -30,30 +30,30 @@ Money Manager is a web-based personal financial management tool designed to help
 
   ```bash
   .
-  ├── API-collection.json
-  ├── README.md
-  ├── package.json
-  ├── server.js
-  └── src
-      ├── controllers
-      │   └── authController.js
-      │   └── budgetController.js
-      │   └── categoryController.js
-      │   └── transactionController.js
-      ├── middleware
-      │   └── auth.js
-      │   └── mediaTypeValidator.js
-      ├── models
-      │   └── Budget.js
-      │   └── Category.js
-      │   └── Transaction.js
-      │   └── User.js
-      └── routes
-          ├── index.js
-          └── transaction.js
-          └── budget.js
-          └── category.js
-          └── authRoutes.js
+├── API-collection.json
+├── README.md
+├── package.json
+├── server.js
+└── src
+    ├── controllers
+    │   ├──authController.js
+    │   ├── budgetController.js
+    │   ├── categoryController.js
+    │   └── transactionController.js
+    ├── middleware
+    │   ├── auth.js
+    │   └── mediaTypeValidator.js
+    ├── models
+    │   ├── Budget.js
+    │   ├── Category.js
+    │   ├── Transaction.js
+    │   └── User.js
+    └── routes
+        ├── index.js
+        ├── transaction.js
+        ├── budget.js
+        ├── category.js
+        └── authRoutes.js
   ```
 
   
