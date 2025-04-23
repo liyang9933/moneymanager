@@ -1,0 +1,29 @@
+n12211451.ifn666.com {
+        handle /api/* {
+                reverse_proxy localhost:3001
+        }
+
+        handle {
+                reverse_proxy localhost:3002
+        }
+
+        handle /locallib/* {
+                uri strip_prefix /locallib
+                reverse_proxy localhost:3005
+        }
+        handle /task-manager-v1.1.0/* {
+                uri strip_prefix /task-manager-v1.1.0
+                reverse_proxy localhost:4000
+        }
+
+        handle /assessment02/api/* {
+                uri strip_prefix /assessment02
+                reverse_proxy localhost:3009
+        }
+        handle /assessment02/* {
+                root * /var/www/html/assessment02
+                uri strip_prefix /assessment02
+                try_files {path} /index.html
+                file_server
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "v": 6,
+  "name": "MoneyManager",
+  "folders": [
+    {
+      "v": 6,
+      "name": "Category",
+      "folders": [],
+      "requests": [
+        {
+          "v": "11",
+          "name": "Create",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:3000/api/category",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"name\":\"Household\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "getAll",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/category",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "get",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/category/67e92f976672125662574f8e",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"name\":\"Transport\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "Update",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/category",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"name\":\"Transport\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "Delete",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/category",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"name\":\"Education\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_m8vl2d2p_f05286b7-a16b-4fe5-801a-5e47daf7c0fe"
+    },
+    {
+      "v": 6,
+      "name": "Authentication",
+      "folders": [],
+      "requests": [
+        {
+          "v": "11",
+          "name": "Login",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:3000/api/auth/login",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"username\":\"admin\",\n  \"password\":\"admin\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_m8vl4lhq_309126b2-ef24-4091-8027-8ae63cf31394"
+    },
+    {
+      "v": 6,
+      "name": "Transaction",
+      "folders": [],
+      "requests": [
+        {
+          "v": "11",
+          "name": "Create",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:3000/api/transaction",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"amount\": 300,\n  \"type\": \"expense\",\n  \"category\": \"67e92f976672125662574f8e\",\n  \"description\": \"Airplane\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "getAll",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/budget",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "get",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/transaction/67e934f82a528a4608ece288",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "Update",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/transaction",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"amount\": 3000,\n  \"type\": \"income\",\n  \"category\": \"67e92f976672125662574f8e\",\n  \"description\": \"Salary\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "Delete",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/transaction",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "getQuery",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/transaction?type=expense",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_m8vlm4f5_5e8f0b95-290e-4b2e-92e5-e365a72836b7"
+    },
+    {
+      "v": 6,
+      "name": "Budget",
+      "folders": [],
+      "requests": [
+        {
+          "v": "11",
+          "name": "Create",
+          "method": "POST",
+          "endpoint": "http://127.0.0.1:3000/api/budget/",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"category\":\"67e931f82a528a4608ece260\",\n  \"amount\": 300,\n  \"month\": \"April\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "getAll",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/budget/",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "get",
+          "method": "GET",
+          "endpoint": "http://127.0.0.1:3000/api/budget/67e93a6be3e890f4f68e460a",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "Update",
+          "method": "PUT",
+          "endpoint": "http://127.0.0.1:3000/api/budget/67e93a6be3e890f4f68e460a",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"amount\": 380\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "11",
+          "name": "Delete",
+          "method": "DELETE",
+          "endpoint": "http://127.0.0.1:3000/api/budget/67e93afae3e890f4f68e460f",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "bearer",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiX2lkIjoiNjdlOTI4NDI2NmYyMzFkYTc5MWU2OWRkIiwiaWF0IjoxNzQzMzM1ODYwLCJleHAiOjE3NDMzNDc4NjB9.n9QXrlG4VW0LUKwKTzeaY9m-rhjTy7wXB5LNymWiFOw",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_m8vmbnvw_e4b528e9-6db8-44f8-8ca8-541e58bb3881"
+    }
+  ],
+  "requests": [],
+  "auth": {
+    "authType": "none",
+    "authActive": true
+  },
+  "headers": [],
+  "_ref_id": "coll_m8vkyobu_bc8eaef7-04c1-4d05-87b7-8be98e04df5b"
+}
