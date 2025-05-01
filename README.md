@@ -70,27 +70,27 @@ client/
 │   └── img
 │		   └── moneyPig.jpg.webp
 └── src
-│   └── components
-│			└── AppLayout.jsx
-│   └── context
-│			└── AuthContext.jsx
-│   └── pages
-│			├──  BudgetCreatePage.jsx
-│			├──  BudgetEditPage.jsx
-│			├──  BudgetPage.jsx
-│			├──  CategoryCreatePage.jsx
-│			├──  CategoryEditPage.jsx
-│			├──  CategoryPage.jsx
-│			├──  HomePage.jsx
-│			├──  LoginPage.jsx
-│			├──  TransactionCreatePage.jsx
-│			├──  TransactionEditPage.jsx
-│			└──  TransactionPage.jsx
-│   └── services
-│			├──  api.js
-│			└── axios.js
-│   └── App.jsx
-│   └── main.jsx
+   ├── components
+	│		└── AppLayout.jsx
+   ├── context
+	│		└── AuthContext.jsx
+   ├── pages
+	│		├──  BudgetCreatePage.jsx
+	│		├──  BudgetEditPage.jsx
+	│		├──  BudgetPage.jsx
+	│		├──  CategoryCreatePage.jsx
+	│		├──  CategoryEditPage.jsx
+	│		├──  CategoryPage.jsx
+	│		├──  HomePage.jsx
+	│		├──  LoginPage.jsx
+	│		├──  TransactionCreatePage.jsx
+	│		├──  TransactionEditPage.jsx
+	│		└──  TransactionPage.jsx
+   ├── services
+	│		├──  api.js
+	│		└── axios.js
+   ├── App.jsx
+   └── main.jsx
 ```
   
 
