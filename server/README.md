@@ -28,8 +28,8 @@ Money Manager is a web-based personal financial management tool designed to help
 
   **A description of the applications architecture**
 
-  ```bash
-  .
+```bash
+.
 ├── API-collection.json
 ├── README.md
 ├── package.json
@@ -54,7 +54,7 @@ Money Manager is a web-based personal financial management tool designed to help
         ├── budget.js
         ├── category.js
         └── authRoutes.js
-  ```
+```
 
   
 
